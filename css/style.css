@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-align:left;
+
+}
+
+
+/* Include the padding and border in an element's total width and height */
+* {
+  box-sizing: border-box;
+}
+.background {
+  border-style: dashed;
+}
+.container{
+  width:420px;
+  height: 45px;
+  border-width: 1px;
+  margin: auto;
+  margin-bottom: 40px;
+  font-weight: bold;
+
+}
+
+.station{
+  margin:auto;
+  width: 420px;
+
+
+}
+
+/* Style the header */
+.header {
+  background-color: #cdcdcd;
+  padding: 30px 40px;
+  color: black;
+  text-align: center;
+  width:420px;
+  margin: auto;
+}
+
+
+.arrived{
+width: 420px;
+margin: auto;
+padding: 0px;
+font-weight: bold;
+}
+.depart{
+  width:420px;
+  padding:0px;
+  margin: auto;
+  margin-bottom: 70px;
+  line-height: 3em;
+}
+
+.upcoming{
+  width: 420px;
+  margin: auto;
+  padding: 0px;
+  font-weight: bold;
+}
+
+.line {
+  width: 420px;
+  margin: auto;
+  padding: 0px;
+  line-height: 1em;
+}
+
+.direction
+
+
+h1{
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+}
+h3{
+  text-align: left;
+  font-size: 14px;
+}
+
+
+ul {
+    margin: auto;
+    padding: 0;
+    border-style: solid;
+    border-width: 1.2px;
+    width:31.5%;
+    background-color:#3776BA;
+    /*this UL keeps shrinking when the browser window is adjusted*/
+}
+
+ul li {
+    cursor: pointer;
+    display: inline-block;
+    width:417px;
+    padding: 14px 35px 12px 20px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.image2 {
+  padding: 5px;
+  padding-bottom: 10px;
+  position: relative;
+  top: -50px;
+}
