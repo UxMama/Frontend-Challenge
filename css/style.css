@@ -3,9 +3,7 @@ body {
   font-size: 18px;
   font-family: sans-serif;
   text-align:left;
-
 }
-
 
 /* Include the padding and border in an element's total width and height */
 * {
@@ -14,103 +12,135 @@ body {
 .background {
   border-style: dashed;
 }
-.container{
-  width:420px;
-  height: 45px;
-  border-width: 1px;
-  margin: auto;
+.container {
+  width:333px;
+  height:45px;
   margin-bottom: 40px;
-  font-weight: bold;
 
 }
 
-.station{
+input[type=text] {
+    width: 320px;
+    border-radius: 5px;
+}
+
+.station {
   margin:auto;
-  width: 420px;
-
-
+  width:419px;
+  line-height: 4em;
 }
-
-/* Style the header */
-.header {
-  background-color: #cdcdcd;
-  padding: 30px 40px;
-  color: black;
-  text-align: center;
-  width:420px;
-  margin: auto;
-}
-
 
 .arrived{
-width: 420px;
+width: 320px;
 margin: auto;
 padding: 0px;
 font-weight: bold;
+list-style: none;
+padding-top: 70px;
 }
+
 .depart{
-  width:420px;
+  width:320px;
   padding:0px;
   margin: auto;
-  margin-bottom: 70px;
-  line-height: 3em;
+  margin-bottom: 40px;
+  line-height: 2em;
+  list-style: none;
+}
+
+.depart2 {
+  text-align: center;
+  line-height: 0em;
+  position: relative;
+  bottom: 30px;
 }
 
 .upcoming{
-  width: 420px;
+  width: 320px;
   margin: auto;
   padding: 0px;
   font-weight: bold;
 }
 
 .line {
-  width: 420px;
-  margin: auto;
-  padding: 0px;
-  line-height: 1em;
+  width: 320px;
+  line-height: 0em;
 }
 
-.direction
+.num {
+  text-align:left;
+  font-weight: bolder;
+}
 
+.destination {
+  text-align:center;
+  position: relative;
+  bottom: 10px;
+}
+.frequency {
+  position: relative;
+  bottom: 24px;
+  text-align: right;
+}
+.eta {
+  text-align: right;
+  position: relative;
+  bottom: 24px;
+}
+
+.resumes{
+  text-align: right;
+  position: relative;
+  bottom: 24px;
+}
 
 h1{
   text-align: left;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
+  height:1em;
+  padding:0;
 }
 
 h2 {
   text-align: center;
+  padding-top: 5px;
 }
-h3{
+
+h3 {
   text-align: left;
-  font-size: 14px;
+  font-size: 12px;
 }
-
-
 ul {
     margin: auto;
     padding: 0;
-    border-style: solid;
-    border-width: 1.2px;
-    width:31.5%;
+    border-bottom: solid;
+    border-bottom-color: #3776BA;
+    width:31%;
     background-color:#3776BA;
+    list-style: none;
+
     /*this UL keeps shrinking when the browser window is adjusted*/
-}
+  }
 
 ul li {
-    cursor: pointer;
-    display: inline-block;
-    width:417px;
-    padding: 14px 35px 12px 20px;
-    background: #eee;
-    font-size: 18px;
-    transition: 0.2s;
+    width:320px;
+    padding: 12px 20px 1px 20px;
+    font-size: 14px;
+    background-color: #eee;
+
 }
+
+
+.image1 {
+  width: 333px;
+}
+
 
 .image2 {
   padding: 5px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   position: relative;
-  top: -50px;
+  top: -30px;
+  height: 35px
 }
