@@ -61,6 +61,7 @@ background-color: #FFCC00;
   margin: auto;
   padding: 0px;
   font-weight: bold;
+
 }
 
 .line {
@@ -74,25 +75,26 @@ background-color: #FFCC00;
 }
 
 .destination {
-  text-align:center;
+  text-align:left;
   position: relative;
   bottom: 10px;
+  text-indent: 75px;
 }
 .frequency {
   position: relative;
-  bottom: 24px;
+  bottom: 16px;
   text-align: right;
 }
 .eta {
   text-align: right;
   position: relative;
-  bottom: 24px;
+  bottom: 19px;
 }
 
 .resumes{
   text-align: right;
   position: relative;
-  bottom: 24px;
+  bottom: 20px;
 }
 
 h1{
@@ -112,6 +114,7 @@ h3 {
   text-align: left;
   font-size: 12px;
   background-color: #FFCC00;
+
 }
 ul {
     margin: auto;
@@ -127,7 +130,7 @@ ul {
 
 ul li {
     width:320px;
-    padding: 12px 20px 1px 20px;
+    padding: 10px 15px 0px 20px;
     font-size: 14px;
     background-color: #E7E7EA;
 }
