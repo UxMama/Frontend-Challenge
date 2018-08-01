@@ -3,6 +3,7 @@ body {
   font-size: 18px;
   font-family: sans-serif;
   text-align:left;
+  background-color: white;
 }
 
 /* Include the padding and border in an element's total width and height */
@@ -10,21 +11,10 @@ body {
   box-sizing: border-box;
 }
 
-.container {
-  height:45px;
-  margin-bottom: 35px;
-
-}
-
-.station {
-  margin:auto;
-  width:100%;
-  line-height: 4em;
-}
-
 .arrived{
 width: 320px;
 font-weight: bold;
+padding-top:0px;
 }
 
 .depart{
@@ -82,17 +72,10 @@ font-weight: bold;
   bottom: 20px;
 }
 
-header {
-  width: 320px;
-  position: absoulute;
-  margin: 50px;
-}
-
 h1{
   font-size: 12px;
   font-weight: bold;
   height:1em;
-
 }
 
 h2 {      /*Arrived & Enroute*/
@@ -101,14 +84,12 @@ h2 {      /*Arrived & Enroute*/
   font-size: 12px;
   font-weight: bold;
   background-color: #FFCC00;
-  line-height: 10px;
-
+  line-height:20px;
 }
 
 h3 {
   text-align: left;
   font-size: 12px;
-  background-color: #FFCC00;
 
 }
 ul {           /*blue background*/
@@ -119,13 +100,14 @@ ul {           /*blue background*/
     background-color:#3776BA;
     list-style: none;
 
-    /*this UL keeps shrinking when the browser window is adjusted*/
+
   }
 
 ul li {             /*gray boxes*/
     padding: 10px 15px 0px 20px;
     font-size: 14px;
     background-color: #E7E7EA;
+
 }
 
 .image1 {
@@ -133,8 +115,12 @@ ul li {             /*gray boxes*/
 }
 
 .image2 {
+  align: center;
   width: 320px;
   display: block;
-   margin-left: auto;
-   margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
+  top: -60px;
+
 }
