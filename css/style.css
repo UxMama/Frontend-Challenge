@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   font-family: sans-serif;
   text-align:left;
-  background-color: white;
+  background-color: black;
 }
 
 /* Include the padding and border in an element's total width and height */
@@ -86,7 +86,7 @@ padding-top:0px;
   text-align: right;
   position: relative;
   bottom: 19px;
-  font-size:16px;
+  font-size:13px;
 }
 
 .resumes{
@@ -118,13 +118,10 @@ ul {           /*blue background*/
 
   }
 
-ul li {             /*gray boxes*/
+li {             /*gray boxes*/
     padding: 10px 15px 0px 20px;
     font-size: 14px;
     background-color: #ffffff;
-    width: 100%;
-    margin: auto;
-
 }
 
 .image1 {
