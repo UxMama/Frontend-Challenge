@@ -14,31 +14,30 @@ body {
 .arrival{
   width: 375px;
   height: 30px;
-  line-height:35px;
+  line-height:20px;
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   background-color: #FFCC00;
   }
 
 .enroute{
-  width: 375px;
+
   height: 25px;
-  line-height:20px;
+  line-height:10px;
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   background-color: #BBBBBB;
-
 }
 
 .arrived {
-width: 320px;
+width: 375px;
 font-weight: bold;
-padding-top:0px;
+margin-bottom: 35px;
 }
 
-.depart{
+.depart {
   width:320px;
   padding:0px;
   margin: auto;
@@ -59,11 +58,10 @@ padding-top:0px;
   margin: auto;
   font-weight: bold;
   padding: 15px;
-
 }
 
 .line {
-  width: 320px;
+  width: 375px;
   line-height: 0em;
 }
 
@@ -75,18 +73,21 @@ padding-top:0px;
   position: relative;
   bottom: 10px;
   text-indent: 75px;
+  font-size: 14px;
 }
+
 .frequency {
   position: relative;
-  bottom: 15px;
+  bottom: 14px;
   text-align: right;
   font-size:11px;
 }
+
 .eta {
   text-align: right;
   position: relative;
-  bottom: 19px;
-  font-size:13px;
+  bottom: 22px;
+  font-size:14px;
 }
 
 .resumes{
@@ -113,12 +114,9 @@ ul {           /*blue background*/
     border-bottom-color: #3776BA;
     width:375px;
     background-color:#3776BA;
-    list-style: none;
+}
 
-
-  }
-
-li {             /*gray boxes*/
+ul li {             /*gray boxes*/
     padding: 10px 15px 0px 20px;
     font-size: 14px;
     background-color: #ffffff;
@@ -126,7 +124,10 @@ li {             /*gray boxes*/
 
 .image1 {
   width: 375px;
-  margin-bottom:-40px
+  margin-bottom:-40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .image2 {
@@ -136,5 +137,4 @@ li {             /*gray boxes*/
   margin-right: auto;
   position:relative;
   top: -25px;
-
 }
